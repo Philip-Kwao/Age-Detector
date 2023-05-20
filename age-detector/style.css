@@ -1,0 +1,56 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f7f7f7;
+}
+
+.age__container{
+    background-color: white;
+    max-width: 600px;
+    min-height: 400px;
+
+    margin: 4rem auto;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.date{
+    border: 1px solid brown;
+    border-radius: 30px;
+    display: flex;
+    
+    max-width: 20rem;
+    
+    margin: 0 auto;
+}
+
+#date-picker{
+    flex: 1;
+    border: none;
+    padding: 10px 2rem;
+    
+    background: none;
+}
+#date-picker:focus{
+    outline: none;
+}
+
+#date-btn{
+    border: none;
+    background-color: brown;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: white;
+
+    cursor: pointer;
+}
+#date-btn:hover{
+    opacity: 0.9;
+}
+#age-old{
+    
+}
